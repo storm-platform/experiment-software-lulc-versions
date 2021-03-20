@@ -1,6 +1,6 @@
 # rep-lulc-versions
 
-Teste para verificar os impactos causados pelas diferentes versões de software na geração de mapas de uso e cobertura da terra. Foram utilizados os pacotes [R SITS](https://github.com/e-sensing/sits) e [Python scikit-learn](https://scikit-learn.org/).
+Teste para verificar os impactos causados pelas diferentes versões de software na geração de mapas de uso e cobertura da terra. Os testes foram feitos utilizando [R SITS](https://github.com/e-sensing/sits) e [Python scikit-learn](https://scikit-learn.org/).
 
 > Por favor, perceba que esses testes são apenas para verificar se diferentes versões influenciam o resultado de classificações de uso e cobertura da terra. Assim, isso não server para verificar qual software "é melhor". Os softwares estão sempre evoluindo, então, não faz sentido assumir que mesmo com diferentes versões o mesmo resultado será produzido!
 
