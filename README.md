@@ -11,3 +11,33 @@ Para a execução dos testes no pacote SITS, foram selecionadas duas versões do
 - [Ambiente base](sits/base): Ambiente Docker com a dependências base para a instalação do pacote SITS. Todas as versões do SITS são instaladas com base nesse ambiente
     - [SITS (30-06-2020)](sits/30-06-2020)
     - [SITS (02-12-2020)](sits/02-12-2020)
+
+## Execução
+
+> A execução depende do [Docker](https://www.docker.com/). Para fazer a instalação, utilize a [documentação oficial](https://docs.docker.com/engine/install/)
+
+Para reproduzir os testes realizados, pode-se utilizar o `Makefile`. Para a construção do ambiente base, com todas as dependências do pacote SITS, faz-se o uso do comando abaixo:
+
+```shell
+make environment
+```
+
+Após a construção do ambiente, os experimentos podem ser executados
+
+*SITS na data 30/06/2020*
+```shell
+make experiment_01
+```
+
+*SITS na data 02/12/2020*
+```shell
+make experiment_02
+```
+
+Todos os passos acima podem ser resumidos através do comando:
+
+```shell
+make all
+```
+
+> Após finalizar as execuções, você pode excluir os *containers* docker criados utilizando `make clean`.
