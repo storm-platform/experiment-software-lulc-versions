@@ -9,3 +9,5 @@ experiment_01:
 experiment_02:
 	cd sits/02-12-2020 \
 	&& ./run.sh
+
+all: environment experiment_01 experiment_02
