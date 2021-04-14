@@ -13,3 +13,4 @@ RUN wget https://raw.githubusercontent.com/e-sensing/sits/${SITS_COMMIT_HASH_VER
     && rm extras.R DESCRIPTION
 
 USER ${ROOT_USER}
+WORKDIR /opt/classification/

@@ -16,3 +16,4 @@ RUN git clone https://github.com/e-sensing/sits \
 RUN Rscript extras.R
 
 USER ${ROOT_USER}
+WORKDIR /opt/classification/
