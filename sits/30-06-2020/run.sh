@@ -6,9 +6,7 @@ SITS_COMMIT_HASH_VERSION=f0a9de020c2c4d2891523cd14ca452aac69790ae
 # build
 #
 cd environment
-docker build -t "m3nin0/rep-lulc-version:${SITS_COMMIT_HASH_VERSION}" .
-
-cd ..
+./build.sh
 
 #
 # run
