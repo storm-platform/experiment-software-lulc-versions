@@ -1,4 +1,4 @@
-# rep-lulc-versions
+# Experimento - Impacto das versões de software
 
 Teste para verificar os impactos causados pelas diferentes versões de software na geração de mapas de uso e cobertura da terra. Os testes foram feitos utilizando o pacote [R SITS](https://github.com/e-sensing/sits).
 
